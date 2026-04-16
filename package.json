@@ -1,22 +1,19 @@
 {
   "name": "web-testing-assignment",
   "version": "1.0.0",
-  "description": "",
   "main": "index.js",
-  "directories": {
-    "test": "tests"
-  },
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/wordaddict/testing-tool.git"
-  },
+  "scripts": {},
+  "keywords": [],
   "author": "",
   "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/wordaddict/testing-tool/issues"
+  "description": "",
+  "devDependencies": {
+    "@playwright/test": "^1.58.2",
+    "@types/node": "^25.5.0",
+    "cypress": "^14.5.4",
+    "testcafe": "^3.7.4"
   },
-  "homepage": "https://github.com/wordaddict/testing-tool#readme"
+  "dependencies": {
+    "puppeteer": "^24.40.0"
+  }
 }
